@@ -11077,3 +11077,10 @@ section {
   background-color: transparent;
   border: none;
 }
+
+@media (max-width: 768px) {
+  .close{
+    background-color: transparent;
+    border: none;
+  }
+}
