@@ -11072,21 +11072,3 @@ section {
 .carousel-control-prev{
   margin:0 auto;
 }
-
-.my-4 {
-    margin-top: 1.5rem !important;
-    margin-bottom: 0.0rem !important;
-}
-
-.my-6 {
-  margin-top: 1.5rem !important;
-  margin-bottom: 0.0rem !important;
-}
-
-
-@media (max-width: 768px) {
-  .my-4 {
-      margin-top: 0rem !important;
-      margin-bottom: 0.0rem !important;
-  }
-}
