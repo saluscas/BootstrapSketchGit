@@ -11092,3 +11092,7 @@ iframe{
   align-items: center;
   min-height: calc(100vh - 0px);
 }
+
+.remove-padding{
+  padding: 0 0 0 0;
+}
