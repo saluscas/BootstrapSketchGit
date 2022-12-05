@@ -93,6 +93,11 @@ span {
     font-size: 0.85em;
 }
 
+#sidebar.active ul li a img{
+    width: 24.49px;
+    height: 24.48px;
+}
+
 #sidebar.active ul li a i {
     margin-right: 0;
     display: block;
