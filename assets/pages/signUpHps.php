@@ -40,7 +40,7 @@ session_start();
             <ul class="list-unstyled components">
                 <p>MY INITIAL SKETCH:</p>
                 <li class="">
-                    <a href="../../index.php">Home</a>
+                    <a href="../../index.html">Home</a>
                     <ul class="collapse list-unstyled" id="homeSubmenu">
                 </li>
             </ul>

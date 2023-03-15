@@ -5,5 +5,5 @@ if(!isset($_SESSION)) {
 }
 
 if(!isset($_SESSION['id'])) {
-    die("You can't access this page because you not log-on.<p><a href=\"../../index.php\">Entry</a></p>");
+    die("You can't access this page because you not log-on.<p><a href=\"../../index.html\">Entry</a></p>");
 }

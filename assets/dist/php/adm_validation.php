@@ -31,7 +31,7 @@ if (isset($_POST['email']) || isset($_POST['password'])) {
             header("Location: ../../pages/adm/insight.php");
         } else {
             echo "Failed to login! Incorrect email or password.";
-            header("Location: ../../../index.php");
+            header("Location: ../../../index.html");
             
         }
     }
