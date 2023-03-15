@@ -67,7 +67,7 @@ span {
     color: #fff;
     transition: all 0.3s;
 }
-
+/* CUSTOM IN MIN WIDTH FOR CHANGE THE WIDTH OF SIDEBAR ____________________*/
 #sidebar.active {
     min-width: 80px;
     max-width: 80px;
@@ -360,6 +360,7 @@ a.article:hover {
         margin-left: 0;
         transform: none;
     }
+
     #sidebarCollapse span:first-of-type,
     #sidebarCollapse span:nth-of-type(2),
     #sidebarCollapse span:last-of-type {
@@ -401,4 +402,17 @@ a.article:hover {
         transform: rotate(-45deg) translate(1px, -1px);
     }
 
+}
+
+/*CUSTONS*/
+@media (max-width: 768px) {
+    .font-reduce{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 1400px) {
+    #sidebar.active .font-reduce {
+        font-size: 10px;
+    }
 }
