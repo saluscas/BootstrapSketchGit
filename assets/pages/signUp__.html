@@ -1,6 +1,6 @@
-<?php
+<!-- <?php
 session_start();
-?>
+?> -->
 <!DOCTYPE html>
 <html>
 
@@ -99,7 +99,7 @@ session_start();
                             <hr class="dropdown-divider">
                         </li>
                         <li type="button">
-                            <a class="dropdown-item" href="signUp.php">
+                            <a class="dropdown-item" href="signUp.html">
                                 <i class="bi bi-person"></i>
                                 Sign-up
                             </a>
@@ -167,15 +167,17 @@ session_start();
             <div class="jumbotron">
                 <h1 class="display-4">Sign-up</h1>
             </div>
-            <?php
+            <!-- <?php
             if (isset($_SESSION['status'])) {
                 echo "<h4>" . $_SESSION['status'] . "</h4>";
                 unset($_SESSION['status']);
             }
-            ?>
+            ?> -->
             <hr class="my-4">
 
-            <form action="../dist/php/insert.php" method="POST">
+            <form action="adm/insight.html" method="POST">
+            <!-- <form action="../dist/php/insert.php" method="POST"> -->
+
                 <!-- area de campos do form -->
                 <div class="row">
                     <div class="form-group col-md-3">

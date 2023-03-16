@@ -28,7 +28,7 @@ if (isset($_POST['email']) || isset($_POST['password'])) {
             $_SESSION['id'] = $user['id'];
             $_SESSION['username'] = $user['username'];
 
-            header("Location: ../../pages/users/insight.php");
+            header("Location: ../../pages/users/insight.html");
         } else {
             echo "Failed to login! Incorrect email or password.";
             header("Location: adm_validation.php");

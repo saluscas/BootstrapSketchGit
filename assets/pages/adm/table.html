@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 
 include('../../dist/php/protect.php');
 include('../../dist/php/connection.php');
@@ -6,7 +6,7 @@ include('../../dist/php/connection.php');
 $consult = "SELECT * FROM users";
 $con = $mysqli->query($consult);
 
-?>
+?> -->
 <!DOCTYPE html>
 <html>
 
@@ -50,12 +50,12 @@ $con = $mysqli->query($consult);
                                 </a>
                                 <ul class="collapse list-unstyled" id="tableSubmenu">
                                     <li>
-                                        <a href="table.php">Users Table</a>
+                                        <a href="table.html">Users Table</a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="">
-                                <a href="insight.php"
+                                <a href="insight.html"
                                     class="">
                                     <i class="bi bi-house"></i>
                                     Home
@@ -154,7 +154,8 @@ $con = $mysqli->query($consult);
                                         <i class=""><img src="../../dist/misc/img/Eu.jpeg" alt="mdo" width="17.6" height="17.6"
                                             class="rounded-circle">
                                         </i>
-                                        <?php 
+                                        Lucas Sá
+                                        <!-- <?php 
                                         if(strlen($_SESSION['username']) > 8){
                                             echo substr($_SESSION['username'], 0, 6) . "...";
                                         }
@@ -162,13 +163,14 @@ $con = $mysqli->query($consult);
                                         else{
                                             echo $_SESSION['username'];;
                                         }
-                                        ?> 
+                                        ?>  -->
                                     </a>
                                     
                                     <ul class="dropdown-menu text-small shadow" style="  background-color:#fafafa">
                                     <li><a class="dropdown-item justify" maxlength="4" href="#">
                                             <i class="bi bi-person"></i>
-                                            <?php 
+                                            Lucas Sá
+                                            <!-- <?php 
                                             if(strlen($_SESSION['username']) > 10){
                                                 echo substr($_SESSION['username'], 0, 8) . "...";
                                             }
@@ -176,7 +178,7 @@ $con = $mysqli->query($consult);
                                             else{
                                                 echo $_SESSION['username'];;
                                             }
-                                            ?> 
+                                            ?>  -->
                                         </a></li>
                                         <li><a class="dropdown-item justify" href="#">
                                             <i class="bi bi-send"></i>
@@ -194,7 +196,7 @@ $con = $mysqli->query($consult);
                                             Settings
                                         </a></li>
                                         <li type="button">
-                                            <a class="dropdown-item" href="../../dist/php/logout.php">
+                                            <a class="dropdown-item" href="../../../index.html">
                                                 <i class="bi-box-arrow-in-left"></i>
                                                 Sign-out
                                             </a>
@@ -263,7 +265,7 @@ $con = $mysqli->query($consult);
                         </nav>
 
                         <div class="table-responsive">
-                            <caption>Users list:</caption>
+                            <caption>Adm list:</caption>
 
                             <table class="table table-hover">
                                 <thead>
@@ -277,7 +279,7 @@ $con = $mysqli->query($consult);
                                         <th scope="col">Delete</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <!-- <tbody>
                                     <?php while ($data = $con->fetch_array()) { ?>
                                         <tr>
                                             <th scope="row"><?php echo $data["id"]; ?></td>
@@ -295,6 +297,23 @@ $con = $mysqli->query($consult);
                                             </td>
                                         </tr>
                                     <?php } ?>
+                                </tbody> -->
+                                <tbody>
+                                        <tr>
+                                            <th scope="row"></td>
+                                            <td>Lucas Sá</td>
+                                            <td>Male</td>
+                                            <td>saa.luscas@gmail.com</td>
+                                            <td>123</td>
+                                            <td class="table-secondary" style="text-align:center;">
+                                                <a href="#">
+                                                    <i class="bi bi-wrench"></i></a>
+                                            </td>
+                                            <td class="table-danger" style="text-align:center;">
+                                                <a href="#">
+                                                    <i class="bi bi-x-lg"></i></a>
+                                            </td>
+                                        </tr>
                                 </tbody>
                             </table>
                         </div>
