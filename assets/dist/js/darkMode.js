@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $("#selector").change(function() {
-        $("body").toggleClass("bg-secondary");
+        $("body").toggleClass("");
         $("nav").toggleClass("navbar-dark bg-dark");
         
         $("footer").toggleClass("bg-dark");
@@ -11,7 +11,6 @@ $(document).ready(function() {
         $("#selector").toggleClass("navbar-dark bg-dark");
         $("#content > section > div > div > div.col-lg-4 > div:nth-child(1) > div").toggleClass("navbar-dark bg-dark");
         $("#sidebar > ul").toggleClass("navbar-secondary bg-secondary");
-
 
 
         
