@@ -93,6 +93,7 @@
 /*
 ----------------------------------------------------------------------------------------------
 */
+
 .py-2{
   padding-bottom: 1.5rem !important;
 }
@@ -722,11 +723,14 @@ progress {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
   margin-left: auto;
+
 }
 
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
+    padding-right: calc(var(--bs-gutter-x) * 1.5);
+    padding-left: calc(var(--bs-gutter-x) * 1.5);
   }
 }
 @media (min-width: 768px) {

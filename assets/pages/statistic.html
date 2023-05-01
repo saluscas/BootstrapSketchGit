@@ -16,9 +16,10 @@
 </head>
 
 <body>
+
     <div class="wrapper">
         <!-- Sidebar Holder -->
-        <nav id="sidebar">
+        <nav id="sidebar" style="z-index: 999999";>
             <div class="sidebar-header notranslate" translate="no">
                 <h3>I'M LUCAS SÁ</h3>
             </div>
@@ -79,103 +80,874 @@
                 </li>
             </ul>
         </nav>
-        <!-- Page Content Holder -->
-        <div id="content">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <button type="button" id="sidebarCollapse" class="navbar-btn">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
-                    <button type="button" id="barCollapse" class="navbar-btn btn-dark d-inline-block d-lg-none ml-auto"
-                        type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="nav navbar-nav ml-auto col-md-12 justify-content-end list-unstyled d-flex">
-                            <li class="nav-item active">
-                                <a class="nav-link active" href="statistic.html">Statistic</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="dataScience.html">Data Science</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link notranslate" href="python.html" translate="no">Python</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="r.html">R</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link notranslate" href="excel.html" translate="no">Excel</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link notranslate" href="powerBi.html" translate="no">Power BI</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link notranslate" href="sql.html" translate="no">SQL</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="math.html">Math</a>
-                            </li>
-                            <li class="nav-item">
-                                <div class="form-check form-switch">
-                                    <a class="nav-link"><input type="checkbox" class="form-check-input" id="selector"><i
-                                            class="bi bi-moon"></i></a>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+                    aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"
+                    aria-label="Slide 8"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <!-- STATISTIC -->
+                    <div class="container">
+                        <!-- Page Content Holder -->
+                        <div id="content">
+                            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                                <div class="container-fluid">
+                                    <button type="button" id="sidebarCollapse" class="navbar-btn">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </button>
+                                    <button type="button" id="barCollapse"
+                                        class="navbar-btn btn-dark d-inline-block d-lg-none ml-auto" type="button"
+                                        data-toggle="collapse" data-target="#navbarSupportedContent"
+                                        aria-controls="navbarSupportedContent" aria-expanded="false"
+                                        aria-label="Toggle navigation">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul
+                                            class="nav navbar-nav ml-auto col-md-12 justify-content-end list-unstyled d-flex">
+                                            <li class="nav-item active">
+                                                <a class="nav-link active" href="statistic.html">Statistic</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="dataScience.html">Data Science</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link notranslate" href="python.html"
+                                                    translate="no">Python</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="r.html">R</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link notranslate" href="excel.html"
+                                                    translate="no">Excel</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link notranslate" href="powerBi.html" translate="no">Power
+                                                    BI</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link notranslate" href="sql.html" translate="no">SQL</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="math.html">Math</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <div class="form-check form-switch">
+                                                    <a class="nav-link"><input type="checkbox" class="form-check-input"
+                                                            id="selector"><i class="bi bi-moon"></i></a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </li>
-                        </ul>
+                            </nav>
+                            <div class="jumbotron">
+                                <h1 class="display-4">Statistic</h1>
+                                <p class="lead">Introduction about it.</p>
+                            </div>
+                            <hr class="my-4">
+                            <h2>What is?</h2>
+                            <p>Statistics is a branch of mathematics that deals with the collection, analysis,
+                                interpretation,
+                                presentation, and organization of numerical data. It involves the use of various methods
+                                to extract
+                                meaning and insights from data, including descriptive statistics (such as measures of
+                                central
+                                tendency
+                                and variability) and inferential statistics (such as hypothesis testing and regression
+                                analysis).
+                                Statistics is used in a wide range of fields, including science, engineering, business,
+                                economics,
+                                social sciences, and government, among others. Its applications include making
+                                predictions, testing
+                                hypotheses, making decisions, and discovering patterns and relationships in data.</p>
+                            <!-- <h2>Lorem Ipsum Dolor</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                        deserunt mollit anim id est laborum.</p>
+                    <div class="line"></div>
+                    <h3>Lorem Ipsum Dolor</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                        deserunt mollit anim id est laborum.</p> -->
+                            <div class="">
+                                <footer
+                                    class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                                    <div class="col-md-4 d-flex align-items-center">
+                                        <a href="#" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                                            <span class="bi bi-bootstrap text-muted""> © 2022, Lucas Sá.</span>
+                                        </a>
+                                    </div>
+                                    <ul class=" nav col-md-4 justify-content-end list-unstyled d-flex">
+                                                <li class="ms-3"><a class="text-muted"
+                                                        href="https://www.linkedin.com/in/lucas-s%C3%A1-80a87518b"><i
+                                                            class="bi bi-linkedin" width="24" height="24"></i></a></li>
+                                                <li class="ms-3"><a class="text-muted"
+                                                        href="https://www.instagram.com/saa.luscas"><i
+                                                            class="bi bi-instagram" width="24" height="24"></i></a></li>
+                                                <li class="ms-3"><a class="text-muted"
+                                                        href="https://www.facebook.com/lucassa.luca"><i
+                                                            class="bi bi-facebook" width="24" height="24"></use></i></a>
+                                                </li>
+                                                </ul>
+                                </footer>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </nav>
-            <div class="jumbotron">
-                <h1 class="display-4">Statistic</h1>
-                <p class="lead">Introduction about it.</p>
             </div>
-            <hr class="my-4">
-            <h2>What is?</h2>
-            <p>Statistics is a branch of mathematics that deals with the collection, analysis, interpretation,
-                presentation, and organization of numerical data. It involves the use of various methods to extract
-                meaning and insights from data, including descriptive statistics (such as measures of central tendency
-                and variability) and inferential statistics (such as hypothesis testing and regression analysis).
-                Statistics is used in a wide range of fields, including science, engineering, business, economics,
-                social sciences, and government, among others. Its applications include making predictions, testing
-                hypotheses, making decisions, and discovering patterns and relationships in data.</p>
-            <!-- <h2>Lorem Ipsum Dolor</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.</p>
-            <div class="line"></div>
-            <h3>Lorem Ipsum Dolor</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.</p> -->
-            <div class="">
-                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-                    <div class="col-md-4 d-flex align-items-center">
-                        <a href="#" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-                            <span class="bi bi-bootstrap text-muted""> © 2022, Lucas Sá.</span>
-                                </a>
+            <div class="carousel-item">
+                <!-- DATA -->
+                <div class="container">
+                    <div id="content">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <div class="container-fluid">
+                                <button type="button" id="sidebarCollapse" class="navbar-btn">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                                <button type="button" id="barCollapse"
+                                    class="navbar-btn btn-dark d-inline-block d-lg-none ml-auto" type="button"
+                                    data-toggle="collapse" data-target="#navbarSupportedContent"
+                                    aria-controls="navbarSupportedContent" aria-expanded="false"
+                                    aria-label="Toggle navigation">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul
+                                        class="nav navbar-nav ml-auto col-md-12 justify-content-end list-unstyled d-flex">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="statistic.html">Statistic</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="dataScience.html">Data Science</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link notranslate" href="python.html" translate="no">Python</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="r.html">R</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link notranslate" href="excel.html" translate="no">Excel</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link notranslate" href="powerBi.html" translate="no">Power
+                                                BI</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link notranslate" href="sql.html" translate="no">SQL</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="math.html">Math</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <div class="form-check form-switch">
+                                                <a class="nav-link"><input type="checkbox" class="form-check-input"
+                                                        id="selector"><i class="bi bi-moon"></i></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <ul class=" nav col-md-4 justify-content-end list-unstyled d-flex">
-                                <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/lucas-s%C3%A1-80a87518b"><i
-                                            class="bi bi-linkedin" width="24" height="24"></i></a></li>
-                                <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/saa.luscas"><i
-                                            class="bi bi-instagram" width="24" height="24"></i></a></li>
-                                <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/lucassa.luca"><i
-                                            class="bi bi-facebook" width="24" height="24"></use></i></a>
-                                </li>
-                                </ul>
-                </footer>
+                        </nav>
+                        <div class="jumbotron">
+                            <h1 class="display-4">Data Science</h1>
+                            <p class="lead">Introduction about it.</p>
+                        </div>
+                        <hr class="my-4">
+                        <h2>What is?</h2>
+                        <p>Data Science is an interdisciplinary field that combines statistics, mathematics, computer
+                            science, and
+                            domain expertise to extract knowledge and insights from data. It involves the use of various
+                            techniques
+                            such as data mining, machine learning, statistical modeling, and data visualization to
+                            analyze and
+                            interpret complex data sets.
+                        </p>
+                        <p>Data Science involves the entire process of data collection, processing, analysis,
+                            visualization, and
+                            interpretation. It involves the use of various tools and technologies such as Python, R,
+                            SQL, Hadoop,
+                            and Spark to work with large and complex data sets. Data Scientists use their expertise to
+                            identify
+                            patterns, relationships, and insights hidden within the data that can be used to inform
+                            business
+                            decisions, optimize processes, and improve products and services.
+                        </p>
+                        <p>The applications of Data Science are widespread and varied, including industries such as
+                            healthcare,
+                            finance, marketing, and entertainment. It is used to solve a wide range of problems such as
+                            fraud
+                            detection, customer segmentation, recommendation systems, predictive maintenance, and many
+                            more.</p>
+                        <div class="">
+                            <footer
+                                class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                                <div class="col-md-4 d-flex align-items-center">
+                                    <a href="#" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                                        <span class="bi bi-bootstrap text-muted""> © 2022, Lucas Sá.</span>
+                                            </a>
+                                        </div>
+                                        <ul class=" nav col-md-4 justify-content-end list-unstyled d-flex">
+                                            <li class="ms-3"><a class="text-muted"
+                                                    href="https://www.linkedin.com/in/lucas-s%C3%A1-80a87518b"><i
+                                                        class="bi bi-linkedin" width="24" height="24"></i></a></li>
+                                            <li class="ms-3"><a class="text-muted"
+                                                    href="https://www.instagram.com/saa.luscas"><i
+                                                        class="bi bi-instagram" width="24" height="24"></i></a></li>
+                                            <li class="ms-3"><a class="text-muted"
+                                                    href="https://www.facebook.com/lucassa.luca"><i
+                                                        class="bi bi-facebook" width="24" height="24"></use></i></a>
+                                            </li>
+                                            </ul>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!-- PYTHON -->
+                <div class="container">
+                    <div id="content">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <div class="container-fluid">
+                                <button type="button" id="sidebarCollapse" class="navbar-btn">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                                <button type="button" id="barCollapse" class="navbar-btn btn-dark d-inline-block d-lg-none ml-auto"
+                                    type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="nav navbar-nav ml-auto col-md-12 justify-content-end list-unstyled d-flex">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="statistic.html">Statistic</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="dataScience.html">Data Science</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link notranslate active" href="python.html" translate="no">Python</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="r.html">R</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link notranslate" href="excel.html" translate="no">Excel</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link notranslate" href="powerBi.html" translate="no">Power BI</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link notranslate" href="sql.html" translate="no">SQL</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="math.html">Math</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <div class="form-check form-switch">
+                                                <a class="nav-link"><input type="checkbox" class="form-check-input" id="selector"><i
+                                                        class="bi bi-moon"></i></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                        <div class="jumbotron">
+                            <h1 class="display-4 notranslate" translate="no">Python</h1>
+                            <p class="lead">Introduction about it.</p>
+                        </div>
+                        <hr class="my-4">
+                        <h2>What is?</h2>
+                        <p>Python is a high-level programming language that is widely used in Data Science for various tasks such as
+                            data manipulation, analysis, visualization, and machine learning. Python is known for its simplicity,
+                            readability, and flexibility, making it a popular choice for Data Science practitioners.
+                        </p>
+                        <p>Python provides a rich set of libraries and frameworks that are specifically designed for Data Science
+                            tasks. Some of the popular libraries include NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn,
+                            TensorFlow, and PyTorch. These libraries provide efficient and easy-to-use functions for tasks such as
+                            numerical computation, data manipulation, data visualization, machine learning, and deep learning.
+                        </p>
+                        <p>Python's popularity in Data Science can be attributed to its ease of use, flexibility, and the large and
+                            active community that supports it. Python's syntax is simple and easy to understand, making it an
+                            accessible language for beginners. Additionally, Python can be used for a wide range of tasks beyond
+                            Data Science, including web development, automation, and game development, among others.
+                        </p>
+                        <p>Overall, Python's versatility and the rich set of libraries and tools available make it a popular choice
+                            for Data Science practitioners.</p>
+                        <!-- <h2>Lorem Ipsum Dolor</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.</p>
+                        <div class="line"></div>
+                        <h3>Lorem Ipsum Dolor</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.</p> -->
+                        <div class="">
+                            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                                <div class="col-md-4 d-flex align-items-center">
+                                    <a href="#" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                                        <span class="bi bi-bootstrap text-muted""> © 2022, Lucas Sá.</span>
+                                            </a>
+                                        </div>
+                                        <ul class=" nav col-md-4 justify-content-end list-unstyled d-flex">
+                                            <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/lucas-s%C3%A1-80a87518b"><i
+                                                        class="bi bi-linkedin" width="24" height="24"></i></a></li>
+                                            <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/saa.luscas"><i
+                                                        class="bi bi-instagram" width="24" height="24"></i></a></li>
+                                            <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/lucassa.luca"><i
+                                                        class="bi bi-facebook" width="24" height="24"></use></i></a>
+                                            </li>
+                                            </ul>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!-- R -->
+                <div class="container">
+                    <div id="content">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <div class="container-fluid">
+                                <button type="button" id="sidebarCollapse" class="navbar-btn">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                                <button type="button" id="barCollapse" class="navbar-btn btn-dark d-inline-block d-lg-none ml-auto"
+                                    type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="nav navbar-nav ml-auto col-md-12 justify-content-end list-unstyled d-flex">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="statistic.html">Statistic</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="dataScience.html">Data Science</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link notranslate" href="python.html" translate="no">Python</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="r.html">R</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link notranslate" href="excel.html" translate="no">Excel</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link notranslate" href="powerBi.html" translate="no">Power BI</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link notranslate" href="sql.html" translate="no">SQL</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="math.html">Math</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <div class="form-check form-switch">
+                                                <a class="nav-link"><input type="checkbox" class="form-check-input" id="selector"><i
+                                                        class="bi bi-moon"></i></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                        <div class="jumbotron">
+                            <h1 class="display-4">R</h1>
+                            <p class="lead">Introduction about it.</p>
+                        </div>
+                        <hr class="my-4">
+                        <h2>What is?</h2>
+                        <p>R is a programming language and software environment for statistical computing and graphics. It is widely
+                            used in Data Science for tasks such as data manipulation, visualization, statistical analysis, and
+                            machine learning. R is known for its powerful and flexible data analysis capabilities, making it a
+                            popular choice among statisticians and Data Science practitioners.
+                        </p>
+                        <p>R provides a rich set of libraries and packages that are specifically designed for statistical analysis
+                            and Data Science tasks. Some of the popular packages include ggplot2 for data visualization, dplyr for
+                            data manipulation, tidyr for data cleaning, and caret for machine learning. R also provides a wide range
+                            of statistical functions for tasks such as hypothesis testing, regression analysis, and time series
+                            analysis.
+                        </p>
+                        <p>R's popularity in Data Science can be attributed to its strong statistical capabilities, flexible data
+                            structures, and the large and active community that supports it. R's syntax can be challenging for
+                            beginners, but it provides a powerful and efficient tool for advanced statistical analysis and modeling.
+                        </p>
+                        <p>Overall, R is a popular choice for Data Science practitioners who are looking for a powerful and flexible
+                            tool for statistical analysis and modeling.</p>
+                        </p>
+                        <div class="">
+                            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                                <div class="col-md-4 d-flex align-items-center">
+                                    <a href="#" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                                        <span class="bi bi-bootstrap text-muted""> © 2022, Lucas Sá.</span>
+                                            </a>
+                                        </div>
+                                        <ul class=" nav col-md-4 justify-content-end list-unstyled d-flex">
+                                            <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/lucas-s%C3%A1-80a87518b"><i
+                                                        class="bi bi-linkedin" width="24" height="24"></i></a></li>
+                                            <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/saa.luscas"><i
+                                                        class="bi bi-instagram" width="24" height="24"></i></a></li>
+                                            <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/lucassa.luca"><i
+                                                        class="bi bi-facebook" width="24" height="24"></use></i></a>
+                                            </li>
+                                            </ul>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!-- EXCEL -->
+                <div class="container">
+                    <div id="content">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <div class="container-fluid">
+                                <button type="button" id="sidebarCollapse" class="navbar-btn">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                                <button type="button" id="barCollapse" class="navbar-btn btn-dark d-inline-block d-lg-none ml-auto"
+                                    type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="nav navbar-nav ml-auto col-md-12 justify-content-end list-unstyled d-flex">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="statistic.html">Statistic</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="dataScience.html">Data Science</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link notranslate" href="python.html" translate="no">Python</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="r.html">R</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link notranslate active" href="excel.html" translate="no">Excel</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link notranslate" href="powerBi.html" translate="no">Power BI</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link notranslate" href="sql.html" translate="no">SQL</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="math.html">Math</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <div class="form-check form-switch">
+                                                <a class="nav-link"><input type="checkbox" class="form-check-input" id="selector"><i
+                                                        class="bi bi-moon"></i></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                        <div class="jumbotron">
+                            <h1 class="display-4">Excel</h1>
+                            <p class="lead">Introduction about it.</p>
+                        </div>
+                        <hr class="my-4">
+                        <h2>What is?</h2>
+                        <p>Excel is a spreadsheet software developed by Microsoft. It allows users to create and organize data in
+                            rows and columns, perform calculations, and create charts and graphs based on the data. Excel is widely
+                            used in various industries and is a powerful tool for data analysis and visualization.</p>
+                        <!-- <h2>Lorem Ipsum Dolor</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.</p>
+                        <div class="line"></div>
+                        <h3>Lorem Ipsum Dolor</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.</p> -->
+                        <div class="">
+                            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                                <div class="col-md-4 d-flex align-items-center">
+                                    <a href="#" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                                        <span class="bi bi-bootstrap text-muted""> © 2022, Lucas Sá.</span>
+                                            </a>
+                                        </div>
+                                        <ul class=" nav col-md-4 justify-content-end list-unstyled d-flex">
+                                            <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/lucas-s%C3%A1-80a87518b"><i
+                                                        class="bi bi-linkedin" width="24" height="24"></i></a></li>
+                                            <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/saa.luscas"><i
+                                                        class="bi bi-instagram" width="24" height="24"></i></a></li>
+                                            <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/lucassa.luca"><i
+                                                        class="bi bi-facebook" width="24" height="24"></use></i></a>
+                                            </li>
+                                            </ul>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!-- POWER BI -->
+                <div class="container">
+                    <div id="content">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <div class="container-fluid">
+                                <button type="button" id="sidebarCollapse" class="navbar-btn">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                                <button type="button" id="barCollapse" class="navbar-btn btn-dark d-inline-block d-lg-none ml-auto"
+                                    type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="nav navbar-nav ml-auto col-md-12 justify-content-end list-unstyled d-flex">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="statistic.html">Statistic</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="dataScience.html">Data Science</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link notranslate" href="python.html" translate="no">Python</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="r.html">R</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link notranslate" href="excel.html" translate="no">Excel</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link notranslate active" href="powerBi.html" translate="no">Power BI</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link notranslate" href="sql.html" translate="no">SQL</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="math.html">Math</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <div class="form-check form-switch">
+                                                <a class="nav-link"><input type="checkbox" class="form-check-input" id="selector"><i
+                                                        class="bi bi-moon"></i></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                        <div class="jumbotron">
+                            <h1 class="display-4">Power BI</h1>
+                            <p class="lead">Introduction about it.</p>
+                        </div>
+                        <hr class="my-4">
+                        <h2>Power BI</h2>
+                        <p>Power BI is a business analytics service provided by Microsoft that allows users to visualize and analyze
+                            data with interactive dashboards, reports, and data visualization tools. It is designed to help
+                            businesses make better decisions by providing insights into their data.
+                        </p>
+                        <p>Power BI connects to a wide range of data sources, including Excel, SQL Server, SharePoint, and many
+                            others. It provides a drag-and-drop interface for creating interactive visualizations, such as charts,
+                            tables, and maps. Power BI also offers advanced features such as natural language queries, machine
+                            learning, and artificial intelligence to help users discover patterns and insights in their data.
+                        </p>
+                        <p>One of the benefits of Power BI is its integration with other Microsoft products, such as Excel,
+                            SharePoint, and Teams. This integration allows users to share their reports and dashboards with others
+                            and collaborate on data analysis.
+                        </p>
+                        <p>Power BI is popular among businesses of all sizes because of its ease of use, flexibility, and
+                            affordability. Its user-friendly interface allows users with little or no technical skills to create
+                            visually appealing and informative reports and dashboards. Additionally, Power BI offers a range of
+                            pricing options, including a free version, making it accessible to businesses of all sizes.</p>
+                        </p>
+                        <div class="">
+                            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                                <div class="col-md-4 d-flex align-items-center">
+                                    <a href="#" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                                        <span class="bi bi-bootstrap text-muted""> © 2022, Lucas Sá.</span>
+                                            </a>
+                                        </div>
+                                        <ul class=" nav col-md-4 justify-content-end list-unstyled d-flex">
+                                            <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/lucas-s%C3%A1-80a87518b"><i
+                                                        class="bi bi-linkedin" width="24" height="24"></i></a></li>
+                                            <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/saa.luscas"><i
+                                                        class="bi bi-instagram" width="24" height="24"></i></a></li>
+                                            <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/lucassa.luca"><i
+                                                        class="bi bi-facebook" width="24" height="24"></use></i></a>
+                                            </li>
+                                            </ul>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!-- SQL -->
+                <div class="container">
+                    <div id="content">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <div class="container-fluid">
+                                <button type="button" id="sidebarCollapse" class="navbar-btn">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                                <button type="button" id="barCollapse" class="navbar-btn btn-dark d-inline-block d-lg-none ml-auto"
+                                    type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="nav navbar-nav ml-auto col-md-12 justify-content-end list-unstyled d-flex">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="statistic.html">Statistic</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="dataScience.html">Data Science</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link notranslate" href="python.html" translate="no">Python</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="r.html">R</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link notranslate" href="excel.html" translate="no">Excel</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link notranslate" href="powerBi.html" translate="no">Power BI</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link notranslate active" href="sql.html" translate="no">SQL</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="math.html">Math</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <div class="form-check form-switch">
+                                                <a class="nav-link"><input type="checkbox" class="form-check-input" id="selector"><i
+                                                        class="bi bi-moon"></i></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                        <div class="jumbotron">
+                            <h1 class="display-4">SQL</h1>
+                            <p class="lead">Introduction about it.</p>
+                        </div>
+                        <hr class="my-4">
+                        <h2>What is?</h2>
+                        <p>SQL (Structured Query Language) is a programming language used to manage and manipulate relational
+                            databases. It is used to create, modify, and query databases, as well as to insert, update, and delete
+                            data within those databases.
+                        </p>
+                        <p>SQL is widely used in Data Science because it provides a standard and efficient way to retrieve,
+                            manipulate, and analyze data stored in relational databases. SQL allows users to retrieve data from one
+                            or more tables based on specific criteria, join tables together, aggregate data using functions such as
+                            SUM and COUNT, and create views that present data in a specific format.
+                        </p>
+                        <p>In addition to its data manipulation capabilities, SQL also provides a rich set of features for database
+                            management, including creating and modifying tables, setting constraints, and managing users and
+                            permissions.
+                        </p>
+                        <p>SQL is used in a wide range of industries, including finance, healthcare, and e-commerce. It is a
+                            critical tool for data analysts, data scientists, and other professionals who work with data on a
+                            regular basis. SQL's popularity can be attributed to its efficiency, flexibility, and widespread
+                            adoption as the standard language for managing and manipulating relational databases.
+                        </p>
+                        <div class="">
+                            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                                <div class="col-md-4 d-flex align-items-center">
+                                    <a href="#" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                                        <span class="bi bi-bootstrap text-muted""> © 2022, Lucas Sá.</span>
+                                            </a>
+                                        </div>
+                                        <ul class=" nav col-md-4 justify-content-end list-unstyled d-flex">
+                                            <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/lucas-s%C3%A1-80a87518b"><i
+                                                        class="bi bi-linkedin" width="24" height="24"></i></a></li>
+                                            <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/saa.luscas"><i
+                                                        class="bi bi-instagram" width="24" height="24"></i></a></li>
+                                            <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/lucassa.luca"><i
+                                                        class="bi bi-facebook" width="24" height="24"></use></i></a>
+                                            </li>
+                                            </ul>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!-- MATH -->
+                <div class="container">
+                    <div id="content">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <div class="container-fluid">
+                                <button type="button" id="sidebarCollapse" class="navbar-btn">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                                <button type="button" id="barCollapse" class="navbar-btn btn-dark d-inline-block d-lg-none ml-auto"
+                                    type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="nav navbar-nav ml-auto col-md-12 justify-content-end list-unstyled d-flex">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="statistic.html">Statistic</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="dataScience.html">Data Science</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link notranslate" href="python.html" translate="no">Python</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="r.html">R</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link notranslate" href="excel.html" translate="no">Excel</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link notranslate" href="powerBi.html" translate="no">Power BI</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link notranslate" href="sql.html" translate="no">SQL</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="math.html">Math</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <div class="form-check form-switch">
+                                                <a class="nav-link"><input type="checkbox" class="form-check-input" id="selector"><i
+                                                        class="bi bi-moon"></i></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                        <div class="jumbotron">
+                            <h1 class="display-4">Math</h1>
+                            <p class="lead">Introduction about it.</p>
+                        </div>
+                        <hr class="my-4">
+                        <h2>What is?</h2>
+                        <p>Mathematics is a branch of science that deals with the study of numbers, quantity, structure, and change.
+                            In Data Science, mathematics is used extensively to develop statistical models, algorithms, and
+                            techniques to analyze and make sense of complex data sets.
+                        </p>
+                        <p>Mathematics plays a critical role in Data Science because it provides the foundation for many of the
+                            techniques and methods used in the field. For example, linear algebra is used to develop algorithms for
+                            dimensionality reduction and principal component analysis, calculus is used to optimize functions and
+                            machine learning algorithms, and probability theory is used to develop statistical models and hypothesis
+                            testing.
+                        </p>
+                        <p>In addition to these core mathematical concepts, Data Science practitioners also use other mathematical
+                            disciplines such as graph theory, topology, and differential equations to develop novel solutions to
+                            data analysis problems.
+                        </p>
+                        <p>Overall, mathematics provides the theoretical foundation for many of the techniques used in Data Science.
+                            It allows practitioners to develop and analyze complex models, algorithms, and techniques to extract
+                            insights from data and make informed decisions based on those insights.</p>
+                        </p>
+                        <div class="">
+                            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                                <div class="col-md-4 d-flex align-items-center">
+                                    <a href="#" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                                        <span class="bi bi-bootstrap text-muted""> © 2022, Lucas Sá.</span>
+                                            </a>
+                                        </div>
+                                        <ul class=" nav col-md-4 justify-content-end list-unstyled d-flex">
+                                            <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/lucas-s%C3%A1-80a87518b"><i
+                                                        class="bi bi-linkedin" width="24" height="24"></i></a></li>
+                                            <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/saa.luscas"><i
+                                                        class="bi bi-instagram" width="24" height="24"></i></a></li>
+                                            <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/lucassa.luca"><i
+                                                        class="bi bi-facebook" width="24" height="24"></use></i></a>
+                                            </li>
+                                            </ul>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+
+    </div>
+    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button> -->
+    </div>
     </div>
 </body>
 <!-- jQuery CDN - Slim version -->

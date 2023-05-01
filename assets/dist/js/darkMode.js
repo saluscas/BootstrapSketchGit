@@ -1,6 +1,7 @@
+
 $(document).ready(function() {
     $("#selector").change(function() {
-        $("body").toggleClass("");
+        $("body > div").toggleClass("navbar-dark bg-dark");
         $("nav").toggleClass("navbar-dark bg-dark");
         
         $("footer").toggleClass("navbar-dark text-light bg-dark");
