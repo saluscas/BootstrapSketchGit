@@ -4,8 +4,6 @@
  :root {
     --primary-color: #1c858b;
     --secondary-color: #76b3ac;
-    --body-gradient-color-one: #add9d1;
-    --body-gradient-color-two: #eee9d7;
 }
 
 *,
@@ -22,9 +20,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: var(--body-gradient-color-one);  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, var(--body-gradient-color-one), var(--body-gradient-color-two));  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, var(--body-gradient-color-one), var(--body-gradient-color-two)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #fafafa;
 }
 
 p {
@@ -179,7 +175,6 @@ a.article, a.article:hover {
     padding-bottom: 0px;
     min-height: 100vh;
     transition: all 0.3s;
-    background-color: #fff;
 }
 
 #sidebarCollapse {
