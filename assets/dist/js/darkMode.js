@@ -17,6 +17,14 @@ $(document).ready(function() {
         $("#content > hr").toggleClass("text-secondary");
         $(".navbar-nav .show > .nav-link, .navbar-nav .nav-link.active").toggleClass("text-active");
         
+        $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(1)").toggleClass("bg-white");
+        $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(2)").toggleClass("bg-white");
+        $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(3)").toggleClass("bg-white");
+        $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(4)").toggleClass("bg-white");
+        $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(5)").toggleClass("bg-white");
+        $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(6)").toggleClass("bg-white");
+        $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(7)").toggleClass("bg-white");
+        $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(8)").toggleClass("bg-white");
        
         
         
