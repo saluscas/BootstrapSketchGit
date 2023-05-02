@@ -80,7 +80,8 @@
                 </li>
             </ul>
         </nav>
-        <div id="carouselExampleCaptions" class="carousel slide col-centered" data-bs-ride="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide col-centered" data-bs-interval="1000000000"
+            data-bs-keyboard="true" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
                     class="active bg-dark" aria-current="true" aria-label="Slide 1"></button>
@@ -302,7 +303,7 @@
                                         <li class="nav-item">
                                             <div class="form-check form-switch">
                                                 <a class="nav-link"><input type="checkbox" class="form-check-input"
-                                                        id="selector"><i class="bi bi-moon"></i></a>
+                                                        id="selectorTwo"><i class="bi bi-moon"></i></a>
                                             </div>
                                         </li>
                                     </ul>
@@ -388,9 +389,9 @@
                                     <ul
                                         class="nav navbar-nav ml-auto col-md-12 justify-content-end list-unstyled d-flex">
                                         <li class="nav-item">
-                                            <a class="nav-link active" type="button"
-                                                data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                                                class="active" aria-current="true" aria-label="Slide 1">Statistic</a>
+                                            <a class="nav-link" type="button" data-bs-target="#carouselExampleCaptions"
+                                                data-bs-slide-to="0" class="active" aria-current="true"
+                                                aria-label="Slide 1">Statistic</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" type="button" data-bs-target="#carouselExampleCaptions"
@@ -429,7 +430,7 @@
                                         <li class="nav-item">
                                             <div class="form-check form-switch">
                                                 <a class="nav-link"><input type="checkbox" class="form-check-input"
-                                                        id="selector"><i class="bi bi-moon"></i></a>
+                                                        id="selectorThree"><i class="bi bi-moon"></i></a>
                                             </div>
                                         </li>
                                     </ul>
@@ -572,7 +573,7 @@
                                         <li class="nav-item">
                                             <div class="form-check form-switch">
                                                 <a class="nav-link"><input type="checkbox" class="form-check-input"
-                                                        id="selector"><i class="bi bi-moon"></i></a>
+                                                        id="selectorFour"><i class="bi bi-moon"></i></a>
                                             </div>
                                         </li>
                                     </ul>
@@ -704,7 +705,7 @@
                                         <li class="nav-item">
                                             <div class="form-check form-switch">
                                                 <a class="nav-link"><input type="checkbox" class="form-check-input"
-                                                        id="selector"><i class="bi bi-moon"></i></a>
+                                                        id="selectorFive"><i class="bi bi-moon"></i></a>
                                             </div>
                                         </li>
                                     </ul>
@@ -825,7 +826,7 @@
                                         <li class="nav-item">
                                             <div class="form-check form-switch">
                                                 <a class="nav-link"><input type="checkbox" class="form-check-input"
-                                                        id="selector"><i class="bi bi-moon"></i></a>
+                                                        id="selectorSix"><i class="bi bi-moon"></i></a>
                                             </div>
                                         </li>
                                     </ul>
@@ -958,7 +959,7 @@
                                         <li class="nav-item">
                                             <div class="form-check form-switch">
                                                 <a class="nav-link"><input type="checkbox" class="form-check-input"
-                                                        id="selector"><i class="bi bi-moon"></i></a>
+                                                        id="selectorSeven"><i class="bi bi-moon"></i></a>
                                             </div>
                                         </li>
                                     </ul>
@@ -1090,7 +1091,7 @@
                                         <li class="nav-item">
                                             <div class="form-check form-switch">
                                                 <a class="nav-link"><input type="checkbox" class="form-check-input"
-                                                        id="selector"><i class="bi bi-moon"></i></a>
+                                                        id="selectorEight"><i class="bi bi-moon"></i></a>
                                             </div>
                                         </li>
                                     </ul>
@@ -1178,102 +1179,6 @@
 <script src="../node_modules/bootstrap/dist/js/bootstrap-v-4-1-0.min.js"></script>
 <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="../dist/js/darkMode.js"></script>
-<script type="text/javascript">
-    $(document).ready(function () {
-        $('#sidebarCollapse').on('click', function () {
-            $('#sidebar').toggleClass('active');
-            $(this).toggleClass('active');
-        });
-    });
-    $(document).ready(function () {
-        $('#barCollapse').on('click', function () {
-            $(this).toggleClass('active');
-        });
-    });
-
-    $(document).ready(function () {
-        $('#sidebarCollapseTwo').on('click', function () {
-            $('#sidebar').toggleClass('active');
-            $(this).toggleClass('active');
-        });
-    });
-    $(document).ready(function () {
-        $('#barCollapseTwo').on('click', function () {
-            $(this).toggleClass('active');
-        });
-    });
-
-    $(document).ready(function () {
-        $('#sidebarCollapseThree').on('click', function () {
-            $('#sidebar').toggleClass('active');
-            $(this).toggleClass('active');
-        });
-    });
-    $(document).ready(function () {
-        $('#barCollapseThree').on('click', function () {
-            $(this).toggleClass('active');
-        });
-    });
-
-    $(document).ready(function () {
-        $('#sidebarCollapseFour').on('click', function () {
-            $('#sidebar').toggleClass('active');
-            $(this).toggleClass('active');
-        });
-    });
-    $(document).ready(function () {
-        $('#barCollapseFour').on('click', function () {
-            $(this).toggleClass('active');
-        });
-    });
-
-    $(document).ready(function () {
-        $('#sidebarCollapseFive').on('click', function () {
-            $('#sidebar').toggleClass('active');
-            $(this).toggleClass('active');
-        });
-    });
-    $(document).ready(function () {
-        $('#barCollapseFive').on('click', function () {
-            $(this).toggleClass('active');
-        });
-    });
-
-    $(document).ready(function () {
-        $('#sidebarCollapseSix').on('click', function () {
-            $('#sidebar').toggleClass('active');
-            $(this).toggleClass('active');
-        });
-    });
-    $(document).ready(function () {
-        $('#barCollapseSix').on('click', function () {
-            $(this).toggleClass('active');
-        });
-    });
-
-    $(document).ready(function () {
-        $('#sidebarCollapseSeven').on('click', function () {
-            $('#sidebar').toggleClass('active');
-            $(this).toggleClass('active');
-        });
-    });
-    $(document).ready(function () {
-        $('#barCollapseSeven').on('click', function () {
-            $(this).toggleClass('active');
-        });
-    });
-
-    $(document).ready(function () {
-        $('#sidebarCollapseEight').on('click', function () {
-            $('#sidebar').toggleClass('active');
-            $(this).toggleClass('active');
-        });
-    });
-    $(document).ready(function () {
-        $('#barCollapseEight').on('click', function () {
-            $(this).toggleClass('active');
-        });
-    });
-</script>
+<script src="../dist/js/collapsesActive.js"></script>
 
 </html>
