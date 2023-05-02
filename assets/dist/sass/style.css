@@ -6148,7 +6148,7 @@ textarea.form-control-lg {
     right: 0;
     top: 0;
     left: 0;
-    z-index: 2;
+    z-index: 0;
     display: flex;
     justify-content: center;
     padding: 0;
