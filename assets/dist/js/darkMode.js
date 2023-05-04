@@ -25,7 +25,7 @@ $(document).ready(function () {
         $("#sidebar > ul").toggleClass("navbar-secondary bg-secondary");
         $("#content").toggleClass("navbar-dark bg-dark");
         $("#content > hr").toggleClass("text-secondary");
-        
+
         $("#content > section > div > div > div.col-lg-4").toggleClass("border-light bg-dark");
         $("#content > section > div > div > div.col-lg-4 > div:nth-child(1) > div").toggleClass("border-light bg-dark");
         $("#content > section > div > div > div.col-lg-8 > div.card.mb-4").toggleClass("border-light bg-dark");
@@ -66,6 +66,16 @@ $(document).ready(function () {
         $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(6)").toggleClass("bg-white");
         $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(7)").toggleClass("bg-white");
         $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(8)").toggleClass("bg-white");
+
+        $("#accordion").toggleClass("nav-bar bg-dark");
+        $("#accordion > div.card").toggleClass("border-secondary");
+        $("#headingOne").toggleClass("nav-bar bg-dark");
+        $("#collapseOne > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#headingTwo").toggleClass("nav-bar bg-dark");
+        $("#collapseTwo > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#headingThree").toggleClass("nav-bar bg-dark");
+        $("#collapseThree > div").toggleClass("nav-bar bg-dark text-gray");
+
 
     });
 });
@@ -125,6 +135,15 @@ $(document).ready(function () {
         $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(6)").toggleClass("bg-white");
         $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(7)").toggleClass("bg-white");
         $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(8)").toggleClass("bg-white");
+
+        $("#accordion").toggleClass("nav-bar bg-dark");
+        $("#accordion > div.card").toggleClass("border-secondary");
+        $("#headingOne").toggleClass("nav-bar bg-dark");
+        $("#collapseOne > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#headingTwo").toggleClass("nav-bar bg-dark");
+        $("#collapseTwo > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#headingThree").toggleClass("nav-bar bg-dark");
+        $("#collapseThree > div").toggleClass("nav-bar bg-dark text-gray");
     });
 });
 
@@ -183,6 +202,15 @@ $(document).ready(function () {
         $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(6)").toggleClass("bg-white");
         $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(7)").toggleClass("bg-white");
         $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(8)").toggleClass("bg-white");
+
+        $("#accordion").toggleClass("nav-bar bg-dark");
+        $("#accordion > div.card").toggleClass("border-secondary");
+        $("#headingOne").toggleClass("nav-bar bg-dark");
+        $("#collapseOne > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#headingTwo").toggleClass("nav-bar bg-dark");
+        $("#collapseTwo > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#headingThree").toggleClass("nav-bar bg-dark");
+        $("#collapseThree > div").toggleClass("nav-bar bg-dark text-gray");
     });
 });
 
@@ -241,6 +269,15 @@ $(document).ready(function () {
         $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(6)").toggleClass("bg-white");
         $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(7)").toggleClass("bg-white");
         $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(8)").toggleClass("bg-white");
+
+        $("#accordion").toggleClass("nav-bar bg-dark");
+        $("#accordion > div.card").toggleClass("border-secondary");
+        $("#headingOne").toggleClass("nav-bar bg-dark");
+        $("#collapseOne > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#headingTwo").toggleClass("nav-bar bg-dark");
+        $("#collapseTwo > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#headingThree").toggleClass("nav-bar bg-dark");
+        $("#collapseThree > div").toggleClass("nav-bar bg-dark text-gray");
     });
 });
 
@@ -299,6 +336,15 @@ $(document).ready(function () {
         $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(6)").toggleClass("bg-white");
         $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(7)").toggleClass("bg-white");
         $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(8)").toggleClass("bg-white");
+
+        $("#accordion").toggleClass("nav-bar bg-dark");
+        $("#accordion > div.card").toggleClass("border-secondary");
+        $("#headingOne").toggleClass("nav-bar bg-dark");
+        $("#collapseOne > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#headingTwo").toggleClass("nav-bar bg-dark");
+        $("#collapseTwo > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#headingThree").toggleClass("nav-bar bg-dark");
+        $("#collapseThree > div").toggleClass("nav-bar bg-dark text-gray");
     });
 });
 
@@ -357,6 +403,15 @@ $(document).ready(function () {
         $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(6)").toggleClass("bg-white");
         $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(7)").toggleClass("bg-white");
         $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(8)").toggleClass("bg-white");
+
+        $("#accordion").toggleClass("nav-bar bg-dark");
+        $("#accordion > div.card").toggleClass("border-secondary");
+        $("#headingOne").toggleClass("nav-bar bg-dark");
+        $("#collapseOne > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#headingTwo").toggleClass("nav-bar bg-dark");
+        $("#collapseTwo > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#headingThree").toggleClass("nav-bar bg-dark");
+        $("#collapseThree > div").toggleClass("nav-bar bg-dark text-gray");
     });
 });
 
@@ -415,6 +470,16 @@ $(document).ready(function () {
         $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(6)").toggleClass("bg-white");
         $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(7)").toggleClass("bg-white");
         $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(8)").toggleClass("bg-white");
+
+        $("#accordion").toggleClass("nav-bar bg-dark");
+        $("#accordion > div.card").toggleClass("border-secondary");
+        $("#headingOne").toggleClass("nav-bar bg-dark");
+        $("#collapseOne > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#headingTwo").toggleClass("nav-bar bg-dark");
+        $("#collapseTwo > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#headingThree").toggleClass("nav-bar bg-dark");
+        $("#collapseThree > div").toggleClass("nav-bar bg-dark text-gray");
+
     });
 });
 
@@ -473,5 +538,20 @@ $(document).ready(function () {
         $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(6)").toggleClass("bg-white");
         $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(7)").toggleClass("bg-white");
         $("#carouselExampleCaptions > div.carousel-indicators > button:nth-child(8)").toggleClass("bg-white");
+
+        $("#accordion").toggleClass("nav-bar bg-dark");
+        $("#accordion > div.card").toggleClass("border-secondary");
+        $("#headingOne").toggleClass("nav-bar bg-dark");
+        $("#collapseOne > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#headingTwo").toggleClass("nav-bar bg-dark");
+        $("#collapseTwo > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#headingThree").toggleClass("nav-bar bg-dark");
+        $("#collapseThree > div").toggleClass("nav-bar bg-dark text-gray");
+
+
+
+
+
+
     });
 });
