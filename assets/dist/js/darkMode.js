@@ -25,7 +25,20 @@ $(document).ready(function () {
         $("#sidebar > ul").toggleClass("navbar-secondary bg-secondary");
         $("#content").toggleClass("navbar-dark bg-dark");
         $("#content > hr").toggleClass("text-secondary");
-        $("#content > section > div > div > div.col-lg-4 > div:nth-child(1) > div").toggleClass("navbar-dark bg-dark");
+        
+        $("#content > section > div > div > div.col-lg-4").toggleClass("border-light bg-dark");
+        $("#content > section > div > div > div.col-lg-4 > div:nth-child(1) > div").toggleClass("border-light bg-dark");
+        $("#content > section > div > div > div.col-lg-8 > div.card.mb-4").toggleClass("border-light bg-dark");
+        $("#content > section > div > div > div.col-lg-8 > div.card.mb-4 > div").toggleClass("border-light bg-dark");
+        $("#content > section > div > div > div.col-lg-4 > div.card.mb-4.mb-lg-0").toggleClass("border-light bg-dark");
+        $("#content > section > div > div > div.col-lg-4 > div.card.mb-4.mb-lg-0 > div > ul > li:nth-child(1)").toggleClass("border-light bg-dark");
+        $("#content > section > div > div > div.col-lg-4 > div.card.mb-4.mb-lg-0 > div > ul > li:nth-child(2)").toggleClass("border-light bg-dark");
+        $("#content > section > div > div > div.col-lg-4 > div.card.mb-4.mb-lg-0 > div > ul > li:nth-child(3)").toggleClass("border-light bg-dark");
+        $("#content > section > div > div > div.col-lg-4 > div.card.mb-4.mb-lg-0 > div > ul > li:nth-child(4)").toggleClass("border-light bg-dark");
+        $("#content > section > div > div > div.col-lg-4 > div.card.mb-4.mb-lg-0 > div > ul > li:nth-child(5)").toggleClass("border-light bg-dark");
+        $("#content > section > div > div > div.col-lg-8 > div.row > div:nth-child(1) > div > div").toggleClass("text-light bg-dark");
+        $("#content > section > div > div > div.col-lg-8 > div.row > div:nth-child(2) > div > div").toggleClass("text-light bg-dark");
+
         $("footer").toggleClass("navbar-dark text-light bg-dark");
 
         $("#sidebarCollapse").toggleClass("navbar-dark bg-dark");
