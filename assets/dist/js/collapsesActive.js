@@ -14,7 +14,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     $('#barCollapse').on('click', function () {
         $(this).toggleClass('active');
-});
+    });
 });
 
 $(document).ready(function () {
