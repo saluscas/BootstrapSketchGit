@@ -199,7 +199,6 @@ $(document).ready(function () {
         } else {
             $('#navbarSupportedContentEight').collapse('show');
         }
-        $(this).toggleClass('active');
     });
 });
 
