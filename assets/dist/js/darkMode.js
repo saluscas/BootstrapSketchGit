@@ -70,11 +70,11 @@ $(document).ready(function () {
         $("#accordion").toggleClass("nav-bar bg-dark");
         $("#accordion > div.card").toggleClass("border-secondary");
         $("#headingOne").toggleClass("nav-bar bg-dark");
-        $("#collapseOne > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#collapseOne > div").toggleClass("nav-bar bg-dark");
         $("#headingTwo").toggleClass("nav-bar bg-dark");
-        $("#collapseTwo > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#collapseTwo > div").toggleClass("nav-bar bg-dark");
         $("#headingThree").toggleClass("nav-bar bg-dark");
-        $("#collapseThree > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#collapseThree > div").toggleClass("nav-bar bg-dark");
 
 
     });
@@ -139,11 +139,11 @@ $(document).ready(function () {
         $("#accordion").toggleClass("nav-bar bg-dark");
         $("#accordion > div.card").toggleClass("border-secondary");
         $("#headingOne").toggleClass("nav-bar bg-dark");
-        $("#collapseOne > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#collapseOne > div").toggleClass("nav-bar bg-dark");
         $("#headingTwo").toggleClass("nav-bar bg-dark");
-        $("#collapseTwo > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#collapseTwo > div").toggleClass("nav-bar bg-dark");
         $("#headingThree").toggleClass("nav-bar bg-dark");
-        $("#collapseThree > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#collapseThree > div").toggleClass("nav-bar bg-dark");
     });
 });
 
@@ -206,11 +206,11 @@ $(document).ready(function () {
         $("#accordion").toggleClass("nav-bar bg-dark");
         $("#accordion > div.card").toggleClass("border-secondary");
         $("#headingOne").toggleClass("nav-bar bg-dark");
-        $("#collapseOne > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#collapseOne > div").toggleClass("nav-bar bg-dark");
         $("#headingTwo").toggleClass("nav-bar bg-dark");
-        $("#collapseTwo > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#collapseTwo > div").toggleClass("nav-bar bg-dark");
         $("#headingThree").toggleClass("nav-bar bg-dark");
-        $("#collapseThree > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#collapseThree > div").toggleClass("nav-bar bg-dark");
     });
 });
 
@@ -273,11 +273,11 @@ $(document).ready(function () {
         $("#accordion").toggleClass("nav-bar bg-dark");
         $("#accordion > div.card").toggleClass("border-secondary");
         $("#headingOne").toggleClass("nav-bar bg-dark");
-        $("#collapseOne > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#collapseOne > div").toggleClass("nav-bar bg-dark");
         $("#headingTwo").toggleClass("nav-bar bg-dark");
-        $("#collapseTwo > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#collapseTwo > div").toggleClass("nav-bar bg-dark");
         $("#headingThree").toggleClass("nav-bar bg-dark");
-        $("#collapseThree > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#collapseThree > div").toggleClass("nav-bar bg-dark");
     });
 });
 
@@ -340,11 +340,11 @@ $(document).ready(function () {
         $("#accordion").toggleClass("nav-bar bg-dark");
         $("#accordion > div.card").toggleClass("border-secondary");
         $("#headingOne").toggleClass("nav-bar bg-dark");
-        $("#collapseOne > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#collapseOne > div").toggleClass("nav-bar bg-dark");
         $("#headingTwo").toggleClass("nav-bar bg-dark");
-        $("#collapseTwo > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#collapseTwo > div").toggleClass("nav-bar bg-dark");
         $("#headingThree").toggleClass("nav-bar bg-dark");
-        $("#collapseThree > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#collapseThree > div").toggleClass("nav-bar bg-dark");
     });
 });
 
@@ -407,11 +407,11 @@ $(document).ready(function () {
         $("#accordion").toggleClass("nav-bar bg-dark");
         $("#accordion > div.card").toggleClass("border-secondary");
         $("#headingOne").toggleClass("nav-bar bg-dark");
-        $("#collapseOne > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#collapseOne > div").toggleClass("nav-bar bg-dark");
         $("#headingTwo").toggleClass("nav-bar bg-dark");
-        $("#collapseTwo > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#collapseTwo > div").toggleClass("nav-bar bg-dark");
         $("#headingThree").toggleClass("nav-bar bg-dark");
-        $("#collapseThree > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#collapseThree > div").toggleClass("nav-bar bg-dark");
     });
 });
 
@@ -474,11 +474,11 @@ $(document).ready(function () {
         $("#accordion").toggleClass("nav-bar bg-dark");
         $("#accordion > div.card").toggleClass("border-secondary");
         $("#headingOne").toggleClass("nav-bar bg-dark");
-        $("#collapseOne > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#collapseOne > div").toggleClass("nav-bar bg-dark");
         $("#headingTwo").toggleClass("nav-bar bg-dark");
-        $("#collapseTwo > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#collapseTwo > div").toggleClass("nav-bar bg-dark");
         $("#headingThree").toggleClass("nav-bar bg-dark");
-        $("#collapseThree > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#collapseThree > div").toggleClass("nav-bar bg-dark");
 
     });
 });
@@ -542,11 +542,11 @@ $(document).ready(function () {
         $("#accordion").toggleClass("nav-bar bg-dark");
         $("#accordion > div.card").toggleClass("border-secondary");
         $("#headingOne").toggleClass("nav-bar bg-dark");
-        $("#collapseOne > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#collapseOne > div").toggleClass("nav-bar bg-dark");
         $("#headingTwo").toggleClass("nav-bar bg-dark");
-        $("#collapseTwo > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#collapseTwo > div").toggleClass("nav-bar bg-dark");
         $("#headingThree").toggleClass("nav-bar bg-dark");
-        $("#collapseThree > div").toggleClass("nav-bar bg-dark text-gray");
+        $("#collapseThree > div").toggleClass("nav-bar bg-dark");
 
 
 
