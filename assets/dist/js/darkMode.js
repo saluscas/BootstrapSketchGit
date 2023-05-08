@@ -1,25 +1,31 @@
 $(document).ready(function () {
     // verifica se o darkmode está ativado no localStorage
     if (localStorage.getItem('darkmode') === 'true') {
-    // se o darkmode estiver ativado, aplica as classes de estilo escuro
-    toggleDarkmode();
-    // define o estado do seletor como ativado
-    $('#selector').prop('checked', true);
-    $('#selectorTwo').prop('checked', true);
+        // se o darkmode estiver ativado, aplica as classes de estilo escuro
+        toggleDarkmode();
+        // define o estado do seletor como ativado
+        $('#selector').prop('checked', true);
+        $('#selectorTwo').prop('checked', true);
+        $('#selectorThree').prop('checked', true);
+        $('#selectorFour').prop('checked', true);
+        $('#selectorFive').prop('checked', true);
+        $('#selectorSix').prop('checked', true);
+        $('#selectorSeven').prop('checked', true);
+        $('#selectorEight').prop('checked', true);
     }
-    
+
     // adiciona um listener para o evento 'change' no seletor
     $('#selector').change(function () {
-        
-    // ativa ou desativa o darkmode, dependendo do estado do seletor
-    toggleDarkmode();
-    // salva o estado do darkmode no localStorage
-    localStorage.setItem('darkmode', $(this).prop('checked'));
+
+        // ativa ou desativa o darkmode, dependendo do estado do seletor
+        toggleDarkmode();
+        // salva o estado do darkmode no localStorage
+        localStorage.setItem('darkmode', $(this).prop('checked'));
     });
-    });
-    
-    // função para ativar ou desativar o darkmode
-    function toggleDarkmode() {
+});
+
+// função para ativar ou desativar o darkmode
+function toggleDarkmode() {
     $("#selector").toggleClass("navbar-dark bg-dark");
     $("#selectorTwo").toggleClass("navbar-dark bg-dark");
     $("#selectorThree").toggleClass("navbar-dark bg-dark");
@@ -28,14 +34,6 @@ $(document).ready(function () {
     $("#selectorSix").toggleClass("navbar-dark bg-dark");
     $("#selectorSeven").toggleClass("navbar-dark bg-dark");
     $("#selectorEight").toggleClass("navbar-dark bg-dark");
-
-    $("#selectorTwo").prop("checked", $(this).prop("checked"));
-    $("#selectorThree").prop("checked", $(this).prop("checked"));
-    $("#selectorFour").prop("checked", $(this).prop("checked"));
-    $("#selectorFive").prop("checked", $(this).prop("checked"));
-    $("#selectorSix").prop("checked", $(this).prop("checked"));
-    $("#selectorSeven").prop("checked", $(this).prop("checked"));
-    $("#selectorEight").prop("checked", $(this).prop("checked"));
 
     $("body > div").toggleClass("navbar-dark bg-dark");
     $("a").toggleClass("navbar-dark bg-dark");
@@ -95,7 +93,20 @@ $(document).ready(function () {
     $("#collapseTwo > div").toggleClass("nav-bar bg-dark");
     $("#headingThree").toggleClass("nav-bar bg-dark");
     $("#collapseThree > div").toggleClass("nav-bar bg-dark");
-    }
+
+    $(document).ready(function () {
+        $("#selector").change(function () {
+            $("#selectorTwo").prop("checked", $(this).prop("checked"));
+            $("#selectorThree").prop("checked", $(this).prop("checked"));
+            $("#selectorFour").prop("checked", $(this).prop("checked"));
+            $("#selectorFive").prop("checked", $(this).prop("checked"));
+            $("#selectorSix").prop("checked", $(this).prop("checked"));
+            $("#selectorSeven").prop("checked", $(this).prop("checked"));
+            $("#selectorEight").prop("checked", $(this).prop("checked"));
+        })
+    })
+}
+
 
 
 $(document).ready(function () {
