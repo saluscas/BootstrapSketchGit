@@ -40,7 +40,6 @@ $(document).ready(function () {
         $("#selectorSeven").prop("checked", $(this).prop("checked"));
         $("#selectorEight").prop("checked", $(this).prop("checked"));
         localStorage.setItem('darkmode', $(this).prop('checked'));
-
     });
     $('#selectorThree').change(function () {
         toggleDarkmode();
@@ -129,21 +128,73 @@ function toggleDarkmode() {
     $("#sidebar > ul").toggleClass("navbar-secondary bg-secondary");
     $("#content").toggleClass("navbar-dark bg-dark");
     $("#content > hr").toggleClass("text-secondary");
+    
+    $("#content > section > div > div > div.col-lg-4 > div:nth-child(1)").toggleClass("border-secondary bg-dark");
+    $("#content > section > div > div > div.col-lg-8 > div.row > div:nth-child(1) > div").toggleClass("border-secondary bg-dark");
+    $("#content > section > div > div > div.col-lg-8 > div.row > div:nth-child(2) > div").toggleClass("border-secondary bg-dark");
+    $("#content > section > div > div > div.col-lg-8 > div.card.mb-4").toggleClass("border-secondary bg-dark");
+    $("#content > section > div > div > div.col-lg-4 > div.card.mb-4.mb-lg-0").toggleClass("border-secondary bg-dark");
+    $("#content > section > div > div > div.col-lg-4 > div.card.mb-4.mb-lg-0 > div > ul > li:nth-child(1)").toggleClass("border-secondary bg-dark");
+    $("#content > section > div > div > div.col-lg-4 > div.card.mb-4.mb-lg-0 > div > ul > li:nth-child(2)").toggleClass("border-secondary bg-dark");
+    $("#content > section > div > div > div.col-lg-4 > div.card.mb-4.mb-lg-0 > div > ul > li:nth-child(3)").toggleClass("border-secondary bg-dark");
+    $("#content > section > div > div > div.col-lg-4 > div.card.mb-4.mb-lg-0 > div > ul > li:nth-child(4)").toggleClass("border-secondary bg-dark");
+    $("#content > section > div > div > div.col-lg-4 > div.card.mb-4.mb-lg-0 > div > ul > li:nth-child(5)").toggleClass("border-secondary bg-dark");
+   
+    $("#content > section > div > div > div.col-lg-4 > div").toggleClass("border-secondary bg-dark");
+    $("#content > section > div > div > div.col-lg-8 > div.row > div:nth-child(2) > div > div").toggleClass("text-secondary bg-dark");
+    $("#content > section > div > div > div.col-lg-8 > div.row > div:nth-child(1) > div > div").toggleClass("text-secondary bg-dark");
+    $("#content > section > div > div > div.col-lg-8 > div.card.mb-4 > div").toggleClass("border-secondary bg-dark");
+    $("#content > section > div > div > div.col-lg-4 > div:nth-child(1) > div").toggleClass("border-secondary bg-dark");
+    $("#content > section > div > div > div.col-lg-4").toggleClass("border-secondary bg-dark");
 
-    $("#content > section > div > div > div.col-lg-4").toggleClass("border-light bg-dark");
-    $("#content > section > div > div > div.col-lg-4 > div:nth-child(1) > div").toggleClass("border-light bg-dark");
-    $("#content > section > div > div > div.col-lg-8 > div.card.mb-4").toggleClass("border-light bg-dark");
-    $("#content > section > div > div > div.col-lg-8 > div.card.mb-4 > div").toggleClass("border-light bg-dark");
-    $("#content > section > div > div > div.col-lg-4 > div.card.mb-4.mb-lg-0").toggleClass("border-light bg-dark");
-    $("#content > section > div > div > div.col-lg-4 > div.card.mb-4.mb-lg-0 > div > ul > li:nth-child(1)").toggleClass("border-light bg-dark");
-    $("#content > section > div > div > div.col-lg-4 > div.card.mb-4.mb-lg-0 > div > ul > li:nth-child(2)").toggleClass("border-light bg-dark");
-    $("#content > section > div > div > div.col-lg-4 > div.card.mb-4.mb-lg-0 > div > ul > li:nth-child(3)").toggleClass("border-light bg-dark");
-    $("#content > section > div > div > div.col-lg-4 > div.card.mb-4.mb-lg-0 > div > ul > li:nth-child(4)").toggleClass("border-light bg-dark");
-    $("#content > section > div > div > div.col-lg-4 > div.card.mb-4.mb-lg-0 > div > ul > li:nth-child(5)").toggleClass("border-light bg-dark");
-    $("#content > section > div > div > div.col-lg-8 > div.row > div:nth-child(1) > div > div").toggleClass("text-light bg-dark");
-    $("#content > section > div > div > div.col-lg-8 > div.row > div:nth-child(2) > div > div").toggleClass("text-light bg-dark");
+    $("#content > div:nth-child(4) > div:nth-child(1) > div").toggleClass("border-secondary bg-dark");
+    $("#content > div:nth-child(4) > div:nth-child(2) > div").toggleClass("border-secondary bg-dark");
+    $("#content > div:nth-child(4) > div:nth-child(3) > div").toggleClass("border-secondary bg-dark");
+
+    $("#content > div:nth-child(4) > div.card").toggleClass("border-secondary bg-dark");
+
+    $("#content > div:nth-child(5) > div:nth-child(1) > div").toggleClass("bg-dark");
+    $("#content > div:nth-child(5) > div:nth-child(2) > div").toggleClass("bg-dark");
+    $("#content > div:nth-child(5) > div:nth-child(3) > div").toggleClass("bg-dark");
+
+    $("#content > div:nth-child(5) > div:nth-child(1)").toggleClass("border-secondary");
+    $("#content > div:nth-child(5) > div:nth-child(2)").toggleClass("border-secondary");
+    $("#content > div:nth-child(5) > div:nth-child(3)").toggleClass("border-secondary");
+
+    $("#content > div:nth-child(4) > div:nth-child(1) > div > a").toggleClass("bg-secondary-color");
+
+
+    
+    
+
+
+
+   
+    
+    
+
+
+    
+
+
+    
 
     $("footer").toggleClass("navbar-dark text-light bg-dark");
+    $("#content > div:nth-child(1) > footer").toggleClass("border-secondary bg-dark");
+    $("#content > div:nth-child(2) > footer").toggleClass("border-secondary bg-dark");
+    $("#content > div:nth-child(3) > footer").toggleClass("border-secondary bg-dark");
+    $("#content > div:nth-child(4) > footer").toggleClass("border-secondary bg-dark");
+    $("#content > div:nth-child(5) > footer").toggleClass("border-secondary bg-dark");
+    $("#content > div:nth-child(6) > footer").toggleClass("border-secondary bg-dark");
+    $("#content > div:nth-child(7) > footer").toggleClass("border-secondary bg-dark");
+    $("#content > div:nth-child(8) > footer").toggleClass("border-secondary bg-dark");
+    $("#content > div:nth-child(9) > footer").toggleClass("border-secondary bg-dark");
+    $("#content > div:nth-child(10) > footer").toggleClass("border-secondary bg-dark");
+    $("#content > div:nth-child(11) > footer").toggleClass("border-secondary bg-dark");
+
+
+
+    
 
     $("#sidebarCollapse").toggleClass("navbar-dark bg-dark");
     $("#barCollapse").toggleClass("navbar-dark bg-dark");

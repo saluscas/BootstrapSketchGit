@@ -43,6 +43,7 @@
   --bs-dark: #212529;
   --bs-primary-rgb: 13, 110, 253;
   --bs-secondary-rgb: 108, 117, 125;
+  --bs-secondary-color-rgb: 118, 179, 172;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -3476,6 +3477,10 @@ textarea.form-control.is-invalid {
   .btn {
     transition: none;
   }
+}
+
+.btn-primary-color-this{
+  background-color: var(--bs-btn-color);
 }
 
 .btn:hover {
@@ -9489,6 +9494,11 @@ fieldset:disabled .btn {
   background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
 }
 
+.bg-secondary-color {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-secondary-color-rgb), var(--bs-bg-opacity)) !important;
+}
+
 .bg-success {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
@@ -9528,6 +9538,8 @@ fieldset:disabled .btn {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
 }
+
+
 
 .bg-body {
   --bs-bg-opacity: 1;
